@@ -1,1 +1,5 @@
-theme: jekyll-theme-dinky
+#theme: minima
+remote_theme: chrisrhymes/bulma-clean-theme
+#baseurl: "/my-project"
+plugins:
+- github-pages

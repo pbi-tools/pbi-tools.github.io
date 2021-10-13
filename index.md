@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+---
+title: Bulma Clean Theme
+subtitle: This is the demo site for Bulma Clean Theme
+layout: page
+callouts: home_callouts
+show_sidebar: true
+---
 
-You can use the [editor on GitHub](https://github.com/action-bi-toolkit/action-bi-toolkit.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+# Bulma Clean Theme demo website
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
 
-### Markdown
+[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
+![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Ruby Gem
 
-```markdown
-Syntax highlighted code block
+The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
 
-# Header 1
-## Header 2
-### Header 3
+## GitHub Pages
 
-- Bulleted
-- List
+The theme can be used with GitHub Pages by setting the `remote_theme` in your Jekyll sites `_config.yml`
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```yml
+remote_theme: chrisrhymes/bulma-clean-theme
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Instructions
 
-### Jekyll Themes
+For full instructions, please see the Readme at the GitHub repo:
+[https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md](https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/action-bi-toolkit/action-bi-toolkit.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Page Layouts
 
-### Support or Contact
+This demo site showcases the available page layout options.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* Page With Sidebar
+* Page Without Sidebar
+* Page With Menubar
+* Page With Tabs
+* Page Without Footer
+* Page Without Hero
+* Page With Contents
+* Landing Page With Callouts
+* Sponsors Page
+* Image Gallery
+* Recipe Page
+* Blog
+* Post
+
+## Supported By JetBrains
+
+JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
+
+[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
