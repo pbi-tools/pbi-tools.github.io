@@ -11,4 +11,26 @@
 
 * _`bundle add webrick` (see <https://github.com/jekyll/jekyll/issues/8523>)_
 * Install: `bundle`
-* Run: `bundle exec jekyll serve`
+* **Run: `bundle exec jekyll serve`** *(CD to `/docs` folder first)*
+
+## TODO
+
+* [x] Jekyll setup / Gemfile
+* [x] GA
+* [ ] Landing Page
+* [ ] Tools - Getting Started
+* [ ] Articles
+* [ ] Blog
+* [ ] About
+* [ ] `feed.xml`
+* [ ] Top Nav
+* [ ] Side Bar
+* [ ] Search
+* [ ] jquery syntax error
+* [ ] Tags
+
+## Howto: New Article
+
+## Howto: New Post
+
+## Howto: Images
