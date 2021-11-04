@@ -8,6 +8,7 @@
 * Verify installation using `jekyll -v`
 
 ## Install site dependencies
+
 * Clone the repo
 * Navigate to the /docs folder in repo
 * Check the Gemfile for a line starting `gem "webrick"`
@@ -15,6 +16,7 @@
 * Install bundle by typing command: `bundle`
 
 ## Jekyll Serve
+
 * Navigate to root of repo
 * Either execute the following shortcut file `./serve.cmd`, or
 * *Direct command: `bundle exec jekyll serve` (cd into `./docs` first)*
