@@ -4,17 +4,19 @@
 
 * Install Ruby (with Devkit) from <https://rubyinstaller.org/downloads/>
 * On final installer screen, select "ridk install"; Choose option 3 (MSYS2 and MINGW)
-* In new command prompt, run `gem install jekyll bundler`
+* In new command prompt (NB: not running as admin), run `gem install jekyll bundler`
 * Verify installation using `jekyll -v`
 
 ## Install site dependencies
-
-* _`bundle add webrick` (see <https://github.com/jekyll/jekyll/issues/8523>)_
-* Install: `bundle`
+* Clone the repo
+* Navigate to the /docs folder in repo
+* Check the Gemfile for a line starting `gem "webrick"`
+* If the line is missing then type _`bundle add webrick` (see <https://github.com/jekyll/jekyll/issues/8523>)_ otherwise skip step
+* Install bundle by typing command: `bundle`
 
 ## Jekyll Serve
-
-* `./serve.cmd`
+* Navigate to root of repo
+* Either execute the following shortcut file `./serve.cmd`, or
 * *Direct command: `bundle exec jekyll serve` (cd into `./docs` first)*
 
 ## TODO
