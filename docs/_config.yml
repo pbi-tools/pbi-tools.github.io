@@ -60,11 +60,14 @@ kramdown:
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
 collections:
-  tooltips:
-    output: false
   tags:
     output: true
     permalink: /tag/:title/
+  posts:
+    permalink: /blog/:year/:month/:title/
+  drafts:
+    permalink: /drafts/:title:output_ext
+
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 # https://jekyllrb.com/docs/configuration/front-matter-defaults/
