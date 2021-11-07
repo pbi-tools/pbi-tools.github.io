@@ -14,8 +14,14 @@
                 <h4>{{ tool.title }}</h4>
                 <p>{{ tool.description }}</p>
                 <p>Latest release date: <b>{{ tool.release_date }}</b></p>
+                <p>Status: <b>{{ tool.status }}</b></p>
                 {% for link in tool.links %}
-                    <p><a href="{{ link.href | replace: "$release$", tool.latest_release }}" class="btn btn-primary">{{ link.title | replace: "$release$", tool.latest_release }}</a></p>
+                    {% if forloop.first %}
+                        {% assign btn_style = "btn-primary" %}
+                    {% else %}
+                        {% assign btn_style = "btn-info" %}
+                    {% endif %}
+                    <p><a href="{{ link.href | replace: "$release$", tool.latest_release }}" class="btn {{ btn_style }}">{{ link.title | replace: "$release$", tool.latest_release }}</a></p>
                 {% endfor %}
             </div>
         </div>

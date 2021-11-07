@@ -3,7 +3,8 @@ tools:
   description: Exposes features as an external tool from within Power BI Desktop. Get started here.
   latest_release: '1.0.0'
   release_date: 11-Oct-2021
-  icon: cog
+  status: Experimental
+  icon: bar-chart
   links:
   - title: Docs / Getting Started
     href: '/external-tool'
@@ -13,9 +14,10 @@ tools:
     href: 'https://github.com/action-bi-toolkit/toolkit/releases/download/$release$/ActionBIToolkit_v$release$_64bit.msi'
 - title: pbi-tools Desktop CLI
   description: Fully-featured version. Works alongside Power BI Desktop.
-  latest_release: '1.0.0-beta.6'
-  release_date: 11-Oct-2021
-  icon: code
+  latest_release: '1.0.0-beta.7'
+  release_date: 7-Nov-2021
+  status: Stable
+  icon: desktop
   links:
   - title: Docs / Getting Started
     href: '/pbi-tools'
@@ -26,14 +28,17 @@ tools:
 - title: pbi-tools Core CLI
   description: Lightweight, cross-platform version. Targets automation scenarios.
   latest_release: '1.0.0-beta.7'
-  release_date: 11-Oct-2021
-  icon: cogs
+  release_date: 7-Nov-2021
+  status: Experimental
+  icon: code
   links:
   - title: Docs / Getting Started
     href: '/pbi-tools'
   - title: 'Latest Release: $release$'
     href: 'https://github.com/action-bi-toolkit/pbi-tools/releases/tag/$release$'
-  - title: 'Download: Windows ZIP'
-    href: 'https://github.com/action-bi-toolkit/pbi-tools/releases/download/$release$/pbi-tools.core.$release$_win64.zip'
-  - title: 'Download: Linux ZIP'
-    href: 'https://github.com/action-bi-toolkit/pbi-tools/releases/download/$release$/pbi-tools.core.$release$_linux64.zip'
+  - title: 'Download: Windows x64 ZIP'
+    href: 'https://github.com/action-bi-toolkit/pbi-tools/releases/download/$release$/pbi-tools.core.$release$_win-x64.zip'
+  - title: 'Download: Linux x64 ZIP'
+    href: 'https://github.com/action-bi-toolkit/pbi-tools/releases/download/$release$/pbi-tools.core.$release$_linux-x64.zip'
+  - title: 'Download: Alpine x64 ZIP'
+    href: 'https://github.com/action-bi-toolkit/pbi-tools/releases/download/$release$/pbi-tools.core.$release$_alpine-x64.zip'
