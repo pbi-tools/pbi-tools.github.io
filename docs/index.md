@@ -2,7 +2,6 @@
 title: "Welcome to Action BI Toolkit"
 keywords: homepage
 hide_title: true
-hide_sidebar: true
 hide_toggle_nav: true
 permalink: index.html
 toc: false

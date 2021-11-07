@@ -14,7 +14,11 @@
             <ul class="nav navbar-nav navbar-right">
                 {% unless page.hide_toggle_nav %}
                 <!-- toggle sidebar button -->
-                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                {% if page.hide_sidebar %}
+                <li><a id="tg-sb-link" href=""><i id="tg-sb-icon" class="fa fa-toggle-off"></i> Nav</a></li>
+                {% else %}
+                <li><a id="tg-sb-link" href=""><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                {% endif %}
                 {% endunless %}
 
                 <!-- entries without drop-downs appear here -->
