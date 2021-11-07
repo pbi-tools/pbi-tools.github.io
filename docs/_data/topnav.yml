@@ -22,9 +22,21 @@ topnav_dropdowns:
           url: /external-tool
         - title: pbi-tools CLI
           url: /pbi-tools
-    - title: Power BI
+    - title: External
       folderitems:
+        - title: "#ActionBIToolkit on Twitter"
+          external_url: https://twitter.com/search?q=%23actionbitoolkit
         - title: Power BI Docs
           external_url: https://docs.powerbi.com
         - title: Power BI REST API
           external_url: https://docs.microsoft.com/rest/api/power-bi/
+        - title: DAX Guide
+          external_url: https://dax.guide
+        - title: DAX.do by SQLBI
+          external_url: https://dax.do
+        - title: DAX Studio
+          external_url: https://daxstudio.org
+        - title: SQLBI - Tools
+          external_url: https://www.sqlbi.com/tools/
+        - title: Tabular Editor
+          external_url: https://docs.tabulareditor.com
