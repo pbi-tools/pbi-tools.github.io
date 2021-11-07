@@ -5,8 +5,8 @@ topnav:
   items:
     - title: Action BI
       external_url: https://www.action-bi.com/
-    - title: Articles
-      url: /articles
+    # - title: Articles
+    #   url: /articles
     - title: Blog
       url: /blog
     - title: GitHub
