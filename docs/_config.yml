@@ -83,8 +83,30 @@ defaults:
       comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: home
       topnav: topnav
+
+  -
+    scope:
+      path: "pbi-tools"
+      type: "pages"
+    values:
+      sidebar: pbi-tools
+
+  -
+    scope:
+      path: "external-tool"
+      type: "pages"
+    values:
+      sidebar: external-tool
+
+  -
+    scope:
+      path: "blog"
+      type: "pages"
+    values:
+      hide_sidebar: true
+
   -
     scope:
       path: ""
@@ -106,19 +128,18 @@ defaults:
       comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: home
       topnav: topnav
+      hide_sidebar: true
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
-- other
+- home
+- pbi-tools
+- external-tool
 
-description: "............................."
+description: "Website for Action BI Toolkit (External Tool and CLI)"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
