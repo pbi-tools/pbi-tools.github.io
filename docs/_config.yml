@@ -62,6 +62,9 @@ kramdown:
 collections:
   tooltips:
     output: false
+  tags:
+    output: true
+    permalink: /tag/:title/
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 # https://jekyllrb.com/docs/configuration/front-matter-defaults/
@@ -82,11 +85,14 @@ defaults:
   -
     scope:
       path: ""
-      type: "tooltips"
+      type: "tags"
     values:
-      layout: "page"
-      search: true
-      tooltip: true
+      hide_sidebar: true
+      search: exclude
+      comments: false
+      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
+      sidebar: home
+      topnav: topnav
 
   -
     scope:
