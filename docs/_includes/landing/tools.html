@@ -1,0 +1,30 @@
+{% assign tools=site.data.landing_tools.tools %}
+
+<div class="row">
+    {% for tool in tools %}
+    <div class="col-md-4">
+        <div class="panel panel-default text-center">
+            <div class="panel-heading">
+                <span class="fa-stack fa-5x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-{{ tool.icon }} fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="panel-body">
+                <h4>{{ tool.title }}</h4>
+                <p>{{ tool.description }}</p>
+                <p>Latest release date: <b>{{ tool.release_date }}</b></p>
+                <p>Status: <b>{{ tool.status }}</b></p>
+                {% for link in tool.links %}
+                    {% if forloop.first %}
+                        {% assign btn_style = "btn-primary" %}
+                    {% else %}
+                        {% assign btn_style = "btn-info" %}
+                    {% endif %}
+                    <p><a href="{{ link.href | replace: "$release$", tool.latest_release }}" class="btn {{ btn_style }}">{{ link.title | replace: "$release$", tool.latest_release }}</a></p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

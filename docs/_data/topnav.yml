@@ -1,0 +1,42 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Action BI
+      external_url: https://www.action-bi.com/
+    # - title: Articles
+    #   url: /articles
+    - title: Blog
+      url: /blog
+    - title: GitHub
+      external_url: https://github.com/action-bi-toolkit
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Tools
+      folderitems:
+        - title: External Tool
+          url: /external-tool
+        - title: pbi-tools CLI
+          url: /pbi-tools
+    - title: External
+      folderitems:
+        - title: "#ActionBIToolkit on Twitter"
+          external_url: https://twitter.com/search?q=%23actionbitoolkit
+        - title: Power BI Docs
+          external_url: https://docs.powerbi.com
+        - title: Power BI REST API
+          external_url: https://docs.microsoft.com/rest/api/power-bi/
+        - title: DAX Guide
+          external_url: https://dax.guide
+        - title: DAX.do by SQLBI
+          external_url: https://dax.do
+        - title: DAX Studio
+          external_url: https://daxstudio.org
+        - title: SQLBI - Tools
+          external_url: https://www.sqlbi.com/tools/
+        - title: Tabular Editor
+          external_url: https://docs.tabulareditor.com

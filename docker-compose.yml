@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  jekyll:
+    image: jekyll/jekyll
+    volumes:
+      - docs:/site
+    ports:
+      - '8080:4000'
+    working_dir: /site
+    command: ["jekyll", "serve"]
