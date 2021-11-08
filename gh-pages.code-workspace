@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "docs"
+		},
+		{
+			"path": ".", 
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"mushan.vscode-paste-image",
+			"davidanson.vscode-markdownlint"
+		]
+	}
+}
