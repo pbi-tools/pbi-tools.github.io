@@ -1,0 +1,17 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Site Contents
+    folderitems:
+    - title: Home
+      url: /
+    - title: External Tool
+      url: /external-tool
+    - title: pbi-tools CLI
+      url: /pbi-tools
+
+# Copyright 2021 Google LLC

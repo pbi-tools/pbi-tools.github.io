@@ -25,19 +25,22 @@
 
 * [x] Jekyll setup / Gemfile
 * [x] GA
-* [ ] Landing Page
+* [x] Landing Page
 * [x] Footer Logo
+* [x] Blog
+* [x] `feed.xml`
+* [x] Top Nav
+* [x] Side Bar
 * [ ] Tools - Getting Started
-* [ ] Articles
-* [ ] Blog
-* [ ] About
-* [ ] `feed.xml`
-* [ ] Top Nav
-* [ ] Side Bar
+* [ ] Tools: Use <https://shields.io/category/version>
+* [ ] Features
+* [ ] About/Contact
 * [ ] Search
-* [ ] jquery syntax error
+* [ ] jQuery syntax error
+* [ ] Articles
 * [ ] Tags
 * [ ] Remove all obsolete artifacts
+* [ ] Commento.io
 
 ## GitHub Pages / Jekyll Docs
 
@@ -48,6 +51,18 @@
 * <https://jekyllrb.com/docs/variables/>
 * <https://jekyllrb.com/docs/includes/>
 * [Liquid Reference](https://shopify.github.io/liquid/)
+* [Liquid in Jekyll](https://jekyllrb.com/docs/liquid/)
+
+## External Dependencies
+
+* [Font Awesome v4.7](https://fontawesome.com/v4.7/cheatsheet/)
+* [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/getting-started/)
+* [jQuery 3.3.1](https://api.jquery.com/category/version/3.3/)
+* [Navgoco jQuery plugin](https://github.com/tefra/navgoco)
+
+## About: Jekyll Collections
+
+* <https://ben.balter.com/2015/02/20/jekyll-collections/>
 
 ## Howto: New Article
 

@@ -2,6 +2,6 @@
 
 PUSHD %~dp0docs
 
-bundle exec jekyll serve --incremental
+bundle exec jekyll serve %*
 
 POPD
