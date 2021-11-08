@@ -1201,3 +1201,7 @@ h4.panel-title {
         display:block !important;
     }
 }
+
+#landing_intro .row {
+    margin: 15px;
+}
