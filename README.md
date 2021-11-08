@@ -31,6 +31,7 @@
 * [x] `feed.xml`
 * [x] Top Nav
 * [x] Side Bar
+* [x] Remove all obsolete artifacts
 * [ ] Tools - Getting Started
 * [ ] Tools: Use <https://shields.io/category/version>
 * [ ] Features
@@ -39,8 +40,9 @@
 * [ ] jQuery syntax error
 * [ ] Articles
 * [ ] Tags
-* [ ] Remove all obsolete artifacts
 * [ ] Commento.io
+* [ ] Collapsible TOC?
+* [ ] Favicon
 
 ## GitHub Pages / Jekyll Docs
 
