@@ -15,7 +15,7 @@ permalink: /pbi-tools/release-notes.html
 
 ## 1.0.0-beta.6 - 2021-10-11
 
-* [#39](https://github.com/action-bi-toolkit/pbi-tools/issues/39) Rebranded as "Action BI Toolkit | pbi-tools"
+* [#39](https://github.com/action-bi-toolkit/pbi-tools/issues/39) Rebranded as "Action BI Toolkit \| pbi-tools"
 * [#16](https://github.com/action-bi-toolkit/pbi-tools/issues/16) Infrastructure updates for upcoming .Net 5 version
 * Upgraded dependencies: CsvHelper, Fody, Costura.Fody
 * Upgraded AMO/TOM libraries to 19.26
