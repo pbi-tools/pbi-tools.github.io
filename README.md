@@ -32,6 +32,8 @@
 * [x] Top Nav
 * [x] Side Bar
 * [x] Remove all obsolete artifacts
+* [x] Landing - Fix mobile width
+* [x] Blog: Title
 * [ ] Tools - Getting Started
 * [ ] Tools: Use <https://shields.io/category/version>
 * [ ] Features
