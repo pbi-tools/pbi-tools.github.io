@@ -139,6 +139,7 @@ sidebars:
 - pbi-tools
 - external-tool
 
+title: Action BI Toolkit
 description: "Website for Action BI Toolkit (External Tool and CLI)"
 # the description is used in the feed.xml file
 
