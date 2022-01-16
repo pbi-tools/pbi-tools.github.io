@@ -1,15 +1,15 @@
 ---
 title: pbi-tools CLI
 summary: "'pbi-tools' is a command-line tool bringing source-control features to Power BI. It works alongside Power BI Desktop and enables mature enterprise workflows for Power BI projects."
-permalink: /pbi-tools/
+permalink: /cli/
 ---
-An example project is available here: <https://github.com/action-bi-toolkit/adventureworksdw2020-pbix>
+An example project is available here: <https://github.com/pbi-tools/adventureworksdw2020-pbix>
 
 ## User Notes
 
 ### Installation
 
-Download the tool as a ZIP file (no installer required) from [Releases](https://github.com/action-bi-toolkit/pbi-tools/releases/latest) (under _Assets_). Extract and run from a command prompt.
+Download the tool as a ZIP file (no installer required) from [Releases](https://github.com/pbi-tools/pbi-tools/releases/latest) (under _Assets_). Extract and run from a command prompt.
 
 Make sure to [unblock the ZIP file before extracting](https://singularlabs.com/tips/how-to-unblock-a-zip-file-on-windows-10/).
 

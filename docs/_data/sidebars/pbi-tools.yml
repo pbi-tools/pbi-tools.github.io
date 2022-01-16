@@ -10,12 +10,12 @@ entries:
     output: web
     folderitems:
     - title: Introduction
-      url: /pbi-tools/
+      url: /cli/
 
     - title: CLI Usage
-      url: /pbi-tools/usage.html
+      url: /cli/usage.html
 
     - title: Release Notes
-      url: /pbi-tools/release-notes.html
+      url: /cli/release-notes.html
 
 # Copyright 2021 Google LLC

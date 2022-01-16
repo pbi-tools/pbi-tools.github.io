@@ -9,9 +9,7 @@ entries:
     folderitems:
     - title: Home
       url: /
-    - title: External Tool
-      url: /external-tool
     - title: pbi-tools CLI
-      url: /pbi-tools
+      url: /cli
 
 # Copyright 2021 Google LLC

@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Action BI Toolkit"
+title: "Welcome to pbi-tools"
 keywords: homepage
 hide_title: true
 hide_toggle_nav: true

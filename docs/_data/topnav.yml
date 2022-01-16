@@ -3,14 +3,12 @@
 topnav:
 - title: Topnav
   items:
-    - title: Action BI
-      external_url: https://www.action-bi.com/
     # - title: Articles
     #   url: /articles
     - title: Blog
       url: /blog
     - title: GitHub
-      external_url: https://github.com/action-bi-toolkit
+      external_url: https://github.com/pbi-tools
 
 #Topnav dropdowns
 topnav_dropdowns:
@@ -18,14 +16,12 @@ topnav_dropdowns:
   folders:
     - title: Tools
       folderitems:
-        - title: External Tool
-          url: /external-tool
         - title: pbi-tools CLI
-          url: /pbi-tools
+          url: /cli
     - title: External
       folderitems:
-        - title: "#ActionBIToolkit on Twitter"
-          external_url: https://twitter.com/search?q=%23actionbitoolkit
+        - title: "#pbitools on Twitter"
+          external_url: https://twitter.com/search?q=%23pbitools
         - title: Power BI Docs
           external_url: https://docs.powerbi.com
         - title: Power BI REST API

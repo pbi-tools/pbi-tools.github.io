@@ -1,15 +1,15 @@
-repository: action-bi-toolkit/action-bi-toolkit.github.io
+repository: pbi-tools/pbi-tools.github.io
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Action BI Toolkit
+topnav_title: pbi-tools
 # this appears on the top navigation bar next to the home button
 
-site_title: Action BI Toolkit
+site_title: pbi-tools
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Action BI Toolkit Ltd
+company_name: pbi-tools
 # this appears in the footer
 
 # github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -18,7 +18,7 @@ company_name: Action BI Toolkit Ltd
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 # if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-google_analytics: UA-191675157-2
+google_analytics: UA-217307120-1
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
 host: 127.0.0.1
@@ -139,12 +139,12 @@ sidebars:
 - pbi-tools
 - external-tool
 
-title: Action BI Toolkit
-description: "Website for Action BI Toolkit (External Tool and CLI)"
+title: pbi-tools
+description: "Official home for pbi-tools"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://toolkit.action-bi.com
+url: https://pbi.tools
 # baseurl: /documentation-theme-jekyll
 
 

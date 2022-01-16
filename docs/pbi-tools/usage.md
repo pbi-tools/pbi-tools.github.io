@@ -1,5 +1,5 @@
 ---
-title: Action BI Toolkit | pbi-tools CLI
-permalink: /pbi-tools/usage.html
+title: pbi-tools CLI
+permalink: /cli/usage.html
 ---
 {% include usage.md %}
