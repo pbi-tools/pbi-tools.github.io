@@ -88,10 +88,10 @@ defaults:
 
   -
     scope:
-      path: "pbi-tools"
+      path: "cli"
       type: "pages"
     values:
-      sidebar: pbi-tools
+      sidebar: cli
 
   -
     scope:
@@ -136,7 +136,7 @@ defaults:
 
 sidebars:
 - home
-- pbi-tools
+- cli
 - external-tool
 
 title: pbi-tools
