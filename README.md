@@ -1,5 +1,19 @@
 # README
 
+## Site Structure
+
+| Local Path | Url | Notes |
+| --- | --- | --- |
+| /docs/index.md | <https://pbi.tools/> | Landing page |
+| /docs/cli | <https://pbi.tools/cli/> | Docs for pbi-tools CLI (Usage, Release Notes, etc) |
+| /docs/external-tool | <https://pbi.tools/external-tool/> | Docs for pbi-tools External Tool |
+| /docs/devops | <https://pbi.tools/devops/> | |
+| | <https://pbi.tools/getting-started.html> | |
+| | <https://pbi.tools/glossary.html> | |
+| | <https://pbi.tools/faq.html> | |
+| /docs/blog | <https://pbi.tools/blog/> | Index and Archive pages for /blog |
+| /docs/_posts/yyyy-mm-dd-PERMALINK.md | <https://pbi.tools/blog/{year}/{month}/{PERMALINK}/> | Blog posts. |
+
 ## Install Jekyll
 
 * Install Ruby (with Devkit) from <https://rubyinstaller.org/downloads/>
@@ -63,6 +77,11 @@
 * [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/getting-started/)
 * [jQuery 3.3.1](https://api.jquery.com/category/version/3.3/)
 * [Navgoco jQuery plugin](https://github.com/tefra/navgoco)
+
+## Jekyll Theme
+
+* <https://idratherbewriting.com/documentation-theme-jekyll/>
+* <https://github.com/tomjoht/documentation-theme-jekyll>
 
 ## About: Jekyll Collections
 
