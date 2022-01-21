@@ -95,6 +95,13 @@ defaults:
 
   -
     scope:
+      path: "devops"
+      type: "pages"
+    values:
+      sidebar: devops
+
+  -
+    scope:
       path: "external-tool"
       type: "pages"
     values:
@@ -137,6 +144,7 @@ defaults:
 sidebars:
 - home
 - cli
+- devops
 - external-tool
 
 title: pbi-tools

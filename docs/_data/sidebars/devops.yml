@@ -7,11 +7,9 @@ entries:
 
   - title: Site Contents
     folderitems:
-    - title: Home
-      url: /
-    - title: pbi-tools CLI
-      url: /cli
-    - title: Power BI DevOps
-      url: /devops
+    - title: DevOps Home
+      url: /devops/
+    - title: Community Resources
+      url: /devops/community-resources.html
 
 # Copyright 2021 Google LLC
