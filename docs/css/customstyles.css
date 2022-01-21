@@ -1205,3 +1205,10 @@ h4.panel-title {
 #landing_intro .row {
     margin: 15px;
 }
+
+.navbar-brand {
+    height: 50px;
+    padding: 5px 5px;
+    font-size: 18px;
+    line-height: 40px
+}
