@@ -1,9 +1,8 @@
 ---
 title: Power BI DevOps - Community Resources
-summary: ""
 permalink: /devops/community-resources.html
-last_updated: 21 Jan 2022
 summary: "This page contains a curated collection of Power BI DevOps community resources."
+last_updated: 22 Jan 2022
 ---
 
 ## Articles
@@ -14,7 +13,6 @@ summary: "This page contains a curated collection of Power BI DevOps community r
 - **<https://data-marc.com/2019/11/12/versioning-and-ci-cd-for-power-bi-with-azure-devops/>**
 - <https://www.data-insights.de/devopswithpowerbi/>
 - <https://thesqlpro.wordpress.com/2020/11/04/the-power-of-devops-and-deploying-power-bi-reports-to-different-environments-guest-post/>
-- <https://www.powerbisentinel.com/power-bi-devops/>
 - <https://community.powerbi.com/t5/Community-Blog/PowerBI-CICD-using-Azure-DevOps/ba-p/769244>
 - <https://medium.com/swlh/automate-you-power-bi-reports-deployment-using-azure-devops-5ada8915d401>
 - Setting up Version Control for my Power BI Desktop Files (PBIX) \| Gilbert Quevauvilliers [Part 1](https://www.fourmoo.com/2019/07/23/setting-up-version-control-for-my-power-bi-desktop-files-pbix-with-no-additional-cost-part-1/) [Part 2](https://www.fourmoo.com/2019/08/06/using-version-control-with-power-bi-desktop-files-check-in-check-out-view-or-revert-to-previous-versions-part-2/)
@@ -111,6 +109,13 @@ summary: "This page contains a curated collection of Power BI DevOps community r
 - <https://github.com/nathangiusti/Power-BI-VC-Utils>
 - <https://powerbihelper.org/>
 - <https://thebipower.fr/index.php/power-bi-sidetools/>
+
+### Commercial Solutions
+
+- [Azure DevOps Pipelines](https://azure.microsoft.com/services/devops/pipelines/)
+- [GitHub Actions](https://docs.github.com/actions)
+- <https://octopus.com/>
+- <https://www.powerbisentinel.com/power-bi-devops/>
 
 ### Azure DevOps Extensions
 
