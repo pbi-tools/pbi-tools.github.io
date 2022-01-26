@@ -2,7 +2,7 @@
 title: Power BI DevOps - Community Resources
 permalink: /devops/community-resources.html
 summary: "This page contains a curated collection of Power BI DevOps community resources."
-last_updated: 22 Jan 2022
+last_updated: 23 Jan 2022
 ---
 
 ## Articles
@@ -72,6 +72,8 @@ last_updated: 22 Jan 2022
 
 ## Audio/Video
 
+- [Enterprise Power BI Deployment with Azure DevOps \| Marc Lelijveld](https://www.youtube.com/watch?v=6KVurHpa0dQ) _(28 Jun 2021)_
+- [Power BI DevOps for Enterprise Projects \| Bob Duffy](https://www.youtube.com/watch?v=ko0tmp8hvHs) _(recorded 19 May 2021)_
 - [PASS Summit 2020: Power BI CI/CD with Tabular Editor \| Daniel Otykier](https://www.youtube.com/watch?v=BbYqcSUXOgU)
 - [Guy in a Cube: Deployment Pipelines give you more CONTROL (Power BI Premium)](https://www.youtube.com/watch?v=L-rGuFCOn18)
 - [Havens Consulting: Implementing Proper Version Control in Power BI! \| Steve Campbell](https://www.youtube.com/watch?v=8n6tL9PtqBw)
@@ -109,6 +111,7 @@ last_updated: 22 Jan 2022
 - <https://github.com/nathangiusti/Power-BI-VC-Utils>
 - <https://powerbihelper.org/>
 - <https://thebipower.fr/index.php/power-bi-sidetools/>
+- <http://alm-toolkit.com/>
 
 ### Commercial Solutions
 
@@ -121,9 +124,9 @@ last_updated: 22 Jan 2022
 
 - **[Power BI automation tools \| Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-pbi-api.pbi-automation-tools)**
 - **[Power BI Actions \| Maik van der Gaag](https://marketplace.visualstudio.com/items?itemName=maikvandergaag.maikvandergaag-power-bi-actions)**
-- *[Publish Power BI File \| Maik van der Gaag](https://marketplace.visualstudio.com/items?itemName=maikvandergaag.maikvandergaag-publish-power-bi-file) (discontinued)*
 - *[Power BI Build Tools \| Bob Guidinger](https://marketplace.visualstudio.com/items?itemName=bguidinger.powerbi-build-tools) (Last updated 2020)*
 - *[Set Power BI dataset parameters \| Ali Mostafa](https://marketplace.visualstudio.com/items?itemName=AliMostafa.set-power-bi-dataset-parameters) (last updated 2018)*
+- *[Publish Power BI File \| Maik van der Gaag](https://marketplace.visualstudio.com/items?itemName=maikvandergaag.maikvandergaag-publish-power-bi-file) (discontinued)*
 
 ### APIs
 
