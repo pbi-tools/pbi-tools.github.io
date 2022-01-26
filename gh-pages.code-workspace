@@ -7,11 +7,14 @@
 			"path": ".", 
 		}
 	],
-	"settings": {},
+	"settings": {
+		"editor.tabCompletion": "onlySnippets"
+	},
 	"extensions": {
 		"recommendations": [
 			"mushan.vscode-paste-image",
-			"davidanson.vscode-markdownlint"
+			"davidanson.vscode-markdownlint",
+			"yzhang.markdown-all-in-one"
 		]
 	}
 }

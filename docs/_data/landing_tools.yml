@@ -1,8 +1,8 @@
 tools:
 - title: pbi-tools Desktop CLI
   description: Fully-featured version. Works alongside Power BI Desktop.
-  latest_release: '1.0.0-beta.7'
-  release_date: 7-Nov-2021
+  latest_release: '1.0.0-beta.8'
+  release_date: 26-Jan-2022
   status: Stable
   icon: desktop
   links:
@@ -14,9 +14,9 @@ tools:
     href: 'https://github.com/pbi-tools/pbi-tools/releases/download/$release$/pbi-tools.$release$.zip'
 - title: pbi-tools Core CLI
   description: Lightweight, cross-platform version. Targets automation scenarios.
-  latest_release: '1.0.0-beta.7'
-  release_date: 7-Nov-2021
-  status: Experimental
+  latest_release: '1.0.0-beta.8'
+  release_date: 26-Jan-2022
+  status: Stable
   icon: code
   links:
   - title: Docs / Getting Started
