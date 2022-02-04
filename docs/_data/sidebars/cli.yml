@@ -6,7 +6,7 @@ entries:
   version: 1.0.0-beta.8
   folders:
 
-  - title: Getting Started
+  - title: Overview
     output: web
     folderitems:
     - title: Introduction
@@ -23,5 +23,11 @@ entries:
 
     - title: Feature Matrix
       url: /cli/feature-matrix.html
+
+  - title: Tutorials
+    output: web
+    folderitems:
+    - title: Getting started with pbi-tools (CLI)
+      url: /tutorials/getting-started-cli.html
 
 # Copyright 2021 Google LLC

@@ -96,6 +96,13 @@ defaults:
 
   -
     scope:
+      path: "tutorials"
+      type: "pages"
+    values:
+      sidebar: cli
+
+  -
+    scope:
       path: "devops"
       type: "pages"
     values:
