@@ -81,7 +81,7 @@ In your shell, navigate to `C:\pbi-tools-test`:
 
     cd C:\pbi-tools-test
 
-The, use `pbi-tools extract`, specifying the .pbix filename:
+Then, use `pbi-tools extract`, specifying the .pbix filename:
 
     pbi-tools extract '.\Adventure Works DW 2020.pbix'
 
@@ -141,7 +141,7 @@ Now we can use the `pbi-tools compile` command to generate a new .pbit from that
 
 ![pbi-tools-compile](images/getting-started-cli-164410.png)
 
-Our folder now has the additional file "AdvWorksDW2020.pbit". Looking at the file size, you can see it is substantially smaller then the .pbix file since it contains no data, only metadata.
+Our folder now has the additional file "AdvWorksDW2020.pbit". Looking at the file size, you can see it is substantially smaller than the .pbix file since it contains no data, only metadata.
 
 ![pbitools-test-folder-3](images/getting-started-cli-164726.png)
 
