@@ -21,4 +21,7 @@ entries:
     - title: Release Notes
       url: /cli/release-notes.html
 
+    - title: Feature Matrix
+      url: /cli/feature-matrix.html
+
 # Copyright 2021 Google LLC
