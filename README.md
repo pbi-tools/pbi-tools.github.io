@@ -35,6 +35,17 @@
 * Either execute the following shortcut file `./serve.cmd`, or
 * *Direct command: `bundle exec jekyll serve` (cd into `./docs` first)*
 
+## Markdown Editing
+
+### Inserting links to GitHub issues
+
+The `GH-` vscode snippet allows convenient insertion of markdown links to GitHub issues in the `pbi-tools` repository:
+
+* Type `GH-`
+* Hit _TAB_
+* Enter issue number
+* Hit _TAB_ again to complete
+
 ## TODO
 
 * [x] Jekyll setup / Gemfile
