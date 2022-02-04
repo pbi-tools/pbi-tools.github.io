@@ -30,6 +30,7 @@ port: 4000
 exclude:
   - .idea/
   - .gitignore
+  - .markdownlint.yaml
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
