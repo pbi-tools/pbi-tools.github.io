@@ -4,11 +4,15 @@
 			"path": "docs"
 		},
 		{
-			"path": ".", 
+			"path": ".",
 		}
 	],
 	"settings": {
-		"editor.tabCompletion": "onlySnippets"
+		"editor.tabCompletion": "onlySnippets",
+		"pasteImage.basePath": "${currentFileDir}",
+		"pasteImage.path": "${currentFileDir}/images",
+		"pasteImage.defaultName": "HHmmss",
+		"pasteImage.namePrefix": "${currentFileNameWithoutExt}-"
 	},
 	"extensions": {
 		"recommendations": [
