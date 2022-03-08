@@ -2,7 +2,7 @@
 
     pbi-tools <action> -options
 
-_pbi-tools (Desktop), 1.0.0-beta.8 - https://pbi.tools/_
+_pbi-tools (Desktop), 1.0.0-rc.1 - https://pbi.tools/_
 
 ### Actions
 
@@ -30,7 +30,7 @@ Generates a PBIX/PBIT file from sources in the specified PbixProj folder. Curren
 | --- | --- | --- | --- |
 | folder* |  |  | The PbixProj folder to generate the PBIX from. |
 | outPath |  |  | The path for the output file. If not provided, creates the file in the current working directory, using the foldername. A directory or file name can be provided. The full output path is created if it does not exist. |
-| format | `PBIX` |  | The target file format. <br> `PBIX`  - Creates a file using the PBIX format. If the file contains a data model it will have no data and will require processing. This is the default format. <br> `PBIT`  - Creates a file using the PBIT format. When opened in Power BI Desktop, parameters and/or credentials need to be provided and a refresh is triggered. |
+| format | `PBIX` |  | The target file format. <br> `PBIX`  - Creates a file using the PBIX format. Only supported for "thin" reports - use the PBIT format if the project contains a data model. This is the default format. <br> `PBIT`  - Creates a file using the PBIT format. Use for data models. When opened in Power BI Desktop, parameters and/or credentials need to be provided and a refresh is triggered. |
 | overwrite | `False` | X | Overwrite the destination file if it already exists, fail otherwise. |
 
 #### convert
@@ -43,7 +43,7 @@ Performs an offline conversion of PbixProj or Tabular model sources into another
 | --- | --- | --- | --- |
 | source* |  |  | The source(s) to convert. Can be a PbixProj folder, a Model/TE folder, or a TMSL json file. |
 | outPath |  |  | The (optional) destination. Can be a folder or a file, depending on the conversion mode. Must be a folder if the source is a TMSL json file. |
-| modelSerialization |  |  | The model serialization mode. <br> `Default`  - Serializes the tabular model into the default PbixProj folder structure and performs various transformations to optimize file contents for source control. <br> `Raw`  - Serializes the tabular model into a single JSON file containing the full TMSL payload from the PBIX model. No transformation are applied. |
+| modelSerialization |  |  | The model serialization mode. <br> `Default`  - Serializes the tabular model into the default PbixProj folder structure and performs various transformations to optimize file contents for source control. <br> `Raw`  - Serializes the tabular model into a single JSON file containing the full TMSL payload from the PBIX model. No transformations are applied. |
 | mashupSerialization |  |  | The mashup serialization mode. <br> `Default`  - Similar to 'Raw' mode, with the exception that QueryGroups are extracted into a separate file for readability. <br> `Raw`  - Serializes all Mashup parts with no transformations applied. <br> `Expanded`  - Serializes the Mashup metadata part into a Json document, and embedded M queries into separate files. This mode is not supported for compilation. |
 | settingsFile |  |  | An external .pbixproj.json file containing serialization settings. Serialization modes specified as command-line arguments take precedence. |
 | updateSettings | `False` | X | If set, updates the effective PbixProj settings file used for this conversion. |
@@ -91,18 +91,20 @@ _Extracts all records from each table from the model embedded in the specified P
 
 #### extract
 
-    extract <pbixPath> [<pbiPort>] [<extractFolder>] [<mode>] [<modelSerialization>] [<mashupSerialization>] 
+    extract <pbixPath> <pid> [<pbiPort>] [<extractFolder>] [<mode>] [<modelSerialization>] [<mashupSerialization>] [<watch>] 
 
 Extracts the contents of a PBIX/PBIT file into a folder structure suitable for source control. By default, this will create a sub-folder in the directory of the *.pbix file with the same name without the extension.
 
 | Option | Default Value | Is Switch | Description |
 | --- | --- | --- | --- |
 | pbixPath* |  |  | The path to an existing PBIX file. |
-| pbiPort |  |  | The port number from a running Power BI Desktop instance. When specified, the model will not be read from the PBIX file, and will instead be retrieved from the PBI instance. Only supported for V3 PBIX files. |
+| pid* |  |  | The Power BI Desktop process ID to extract sources from (look up via 'pbi-tools info'). |
+| pbiPort |  |  | The port number from a running Power BI Desktop instance (look up via 'pbi-tools info'). When specified, the model will not be read from the PBIX file, and will instead be retrieved from the PBI instance. Only supported for V3 PBIX files. |
 | extractFolder |  |  | The folder to extract the PBIX file to. Only needed to override the default location. Can be relative to current working directory. |
 | mode | `Auto` |  | The extraction mode. <br> `Auto`  - Attempts extraction using the V3 model, and falls back to Legacy mode in case the PBIX file does not have V3 format. <br> `V3`  - Extracts V3 PBIX files only. Fails if the file provided has a legacy format. <br> `Legacy`  - Extracts legacy PBIX files only. Fails if the file provided has the V3 format. |
-| modelSerialization |  |  | The model serialization mode. <br> `Default`  - Serializes the tabular model into the default PbixProj folder structure and performs various transformations to optimize file contents for source control. <br> `Raw`  - Serializes the tabular model into a single JSON file containing the full TMSL payload from the PBIX model. No transformation are applied. |
+| modelSerialization |  |  | The model serialization mode. <br> `Default`  - Serializes the tabular model into the default PbixProj folder structure and performs various transformations to optimize file contents for source control. <br> `Raw`  - Serializes the tabular model into a single JSON file containing the full TMSL payload from the PBIX model. No transformations are applied. |
 | mashupSerialization |  |  | The mashup serialization mode. <br> `Default`  - Similar to 'Raw' mode, with the exception that QueryGroups are extracted into a separate file for readability. <br> `Raw`  - Serializes all Mashup parts with no transformations applied. <br> `Expanded`  - Serializes the Mashup metadata part into a Json document, and embedded M queries into separate files. This mode is not supported for compilation. |
+| watch |  | X | Enables watch mode. Monitors the PBIX file open in a Power BI Desktop session, and extracts sources each time the file is saved. |
 
 **Extract: Custom folder and settings**
 
