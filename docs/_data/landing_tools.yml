@@ -1,8 +1,8 @@
 tools:
 - title: pbi-tools Desktop CLI
   description: Fully-featured version. Works alongside Power BI Desktop.
-  latest_release: '1.0.0-beta.8'
-  release_date: 26-Jan-2022
+  latest_release: '1.0.0-rc.1'
+  release_date: 06-Mar-2022
   status: Stable
   icon: desktop
   links:
@@ -14,8 +14,8 @@ tools:
     href: 'https://github.com/pbi-tools/pbi-tools/releases/download/$release$/pbi-tools.$release$.zip'
 - title: pbi-tools Core CLI
   description: Lightweight, cross-platform version. Targets automation scenarios.
-  latest_release: '1.0.0-beta.8'
-  release_date: 26-Jan-2022
+  latest_release: '1.0.0-rc.1'
+  release_date: 06-Mar-2022
   status: Stable
   icon: code
   links:
@@ -29,3 +29,16 @@ tools:
     href: 'https://github.com/pbi-tools/pbi-tools/releases/download/$release$/pbi-tools.core.$release$_linux-x64.zip'
   - title: 'Download: Alpine x64 ZIP'
     href: 'https://github.com/pbi-tools/pbi-tools/releases/download/$release$/pbi-tools.core.$release$_alpine-x64.zip'
+- title: pbi-tools Core Docker Image
+  description: Lightweight, cross-platform version. Targets automation scenarios.
+  latest_release: '1.0.0-rc.1'
+  release_date: 06-Mar-2022
+  status: Experimental
+  icon: ship
+  links:
+  - title: Docs / Getting Started
+    href: '/cli'
+  - title: 'Latest Release: $release$'
+    href: 'https://github.com/pbi-tools/pbi-tools/pkgs/container/pbi-tools-core/16277839?tag=latest'
+  - title: 'docker pull ghcr.io/pbi-tools/pbi-tools-core:latest'
+    href: '#'
