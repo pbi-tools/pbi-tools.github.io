@@ -30,7 +30,7 @@ tools:
   - title: 'Download: Alpine x64 ZIP'
     href: 'https://github.com/pbi-tools/pbi-tools/releases/download/$release$/pbi-tools.core.$release$_alpine-x64.zip'
 - title: pbi-tools Core Docker Image
-  description: Lightweight, cross-platform version. Targets automation scenarios.
+  description: Docker image for easy integration of pbi-tools in CI/CD pipelines, for instance GitHub Actions or Azure DevOps.
   latest_release: '1.0.0-rc.1'
   release_date: 06-Mar-2022
   status: Experimental
