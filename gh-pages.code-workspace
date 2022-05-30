@@ -9,8 +9,8 @@
 	],
 	"settings": {
 		"editor.tabCompletion": "onlySnippets",
-		"pasteImage.basePath": "${currentFileDir}",
-		"pasteImage.path": "${currentFileDir}/images",
+		"pasteImage.basePath": "${projectRoot}",
+		"pasteImage.path": "${projectRoot}/images",
 		"pasteImage.defaultName": "HHmmss",
 		"pasteImage.namePrefix": "${currentFileNameWithoutExt}-"
 	},
