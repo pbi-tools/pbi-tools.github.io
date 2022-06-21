@@ -11,5 +11,23 @@ entries:
       url: /devops/
     - title: Community Resources
       url: /devops/community-resources.html
+  - title: Release Branching Model
+    folderitems:
+    - title: Introduction
+      url: /devops/release-branching-model/
+    - title: How it works
+      url: /devops/release-branching-model/how-it-works.html
+    #- title: Key Components
+    #  url: /devops/release-branching-model/key-components.html
+    - title: "Workflows: Project Lead"
+      url: /devops/release-branching-model/workflows-project-lead.html
+    - title: "Workflows: Developer"
+      url: /devops/release-branching-model/workflows-developer.html
+    - title: "Setup: Power BI"
+      url: /devops/release-branching-model/setup-powerbi.html
+    - title: "Setup: GitHub"
+      url: /devops/release-branching-model/setup-github.html
+    - title: Resources
+      url: /devops/release-branching-model/resources.html
 
 # Copyright 2021 Google LLC
