@@ -38,6 +38,12 @@ last_updated: 23 Jan 2022
   [Part 12](https://www.kerski.tech/bringing-dataops-to-power-bi-part12/)
   [Part 13](https://www.kerski.tech/bringing-dataops-to-power-bi-part13/)
   [Part 14](https://www.kerski.tech/bringing-dataops-to-power-bi-part14/)
+  [Part 15](https://www.kerski.tech/bringing-dataops-to-power-bi-part15/)
+  [Part 16](https://www.kerski.tech/bringing-dataops-to-power-bi-part16/)
+  [Part 17](https://www.kerski.tech/bringing-dataops-to-power-bi-part17/)
+  [Part 18](https://www.kerski.tech/bringing-dataops-to-power-bi-part18/)
+  [Part 19](https://www.kerski.tech/bringing-dataops-to-power-bi-part19/)
+  [Part 20](https://www.kerski.tech/bringing-dataops-to-power-bi-part20/)
 - Tabular Editor Blog Series: **"You're Deploying it Wrong!"** \| Daniel Otykier
   [Part 1](https://tabulareditor.github.io/2019/02/20/DevOps1.html)
   [Part 2](https://tabulareditor.github.io/2019/06/28/DevOps2.html)
