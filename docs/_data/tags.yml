@@ -7,5 +7,9 @@ allowed-tags:
   - pbi-tools
   - external-tool
   - devops
+  - xmla
+  - power-bi-premium
+  - deployment
+  - preview
 
 # Copyright 2021 Google LLC
