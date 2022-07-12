@@ -1,6 +1,7 @@
 ---
 title:  "Dataset Deployments with pbi-tools, 2nd Preview"
 published: true
+last_updated: 12-Jul-2022
 author: Mathias Thierbach
 tags: [devops, xmla]
 summary: "Announcing the 2nd Preview of the Datasets Deployment pbi-tools release (RC.2). This preview adds support for XMLA refresh tracing, enhanced parameters handling, and the ability to convert \"thick\" reports into dataset and \"thin\" report during deployment."
@@ -70,13 +71,13 @@ For reference, any of the valid values [list here](https://docs.microsoft.com/re
 
 Do you know what exactly is going on during your dataset refreshes and where most time is spent? SSAS is providing very rich and granular trace events as part of any refresh operation, and those are available to Power BI Premium users via the XMLA endpoint.
 
-However, Power BI Service exposes none of that data, and there is limited tooling available. The tool known to most people today is [SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services) which ships with SSMS. With SQL Server Profiler one manually defines a trace session, connects to an XMLA endpoint, and effectively hits _Start_ and _Stop_ to record events for offline analysis. This is what the _Events Selection_ page looks like:
+However, Power BI Service exposes none of that data, and there is limited tooling available. The tool known to most people today is [SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services) which ships with SSMS. With SQL Server Profiler, one manually defines a trace session, connects to an XMLA endpoint, and effectively hits _Start_ and _Stop_ to record events for offline analysis. This is what the _Events Selection_ page looks like:
 
 ![SQL Profiler Events Selection](/images/14fig12.jpg)
 
 Whilst this approach is very powerful, it is also quite involved - a user with sufficient privileges explicitly "runs a trace session". This is likely done only as a one-off or in order to troubleshoot production issues.
 
-`pbi-tools` now helps to operationalize that same process and make it part of every single Production refresh. Refresh tracing can be enabled as part of a `pbi-tools deploy` refresh. With the feature enabled, **trace event logs** can be emitted to the console (and hence become part of the CI/CD pipline logs). Furthermore, **refresh summary metrics** can be generated and written to a CSV file for external processing.
+`pbi-tools` now helps to operationalize that same process and make it part of each Production refresh. Refresh tracing can be enabled as part of a `pbi-tools deploy` refresh. With the feature enabled, **trace event logs** can be emitted to the console (and hence become part of the CI/CD pipline logs). Furthermore, **refresh summary metrics** can be generated and written to a CSV file for external processing.
 
 Analyzing refresh behavior and timings alongside using [VertiPaq Analyzer](https://www.sqlbi.com/tools/vertipaq-analyzer/) should be the two key tools deployed by anyone maintaining a production Power BI dataset. This release of `pbi-tools` makes accessing the former significantly easier and available to a wider audience.
 
@@ -108,7 +109,7 @@ _Each Progress Report Begin event begins with a stream of progress events and is
 
 In order to limit emitted events to a reasonable selection, each incoming event will have a key generated that concatenates the Event Class, Subclass, and Object type. For instance: `ProgressReportBegin|ReadData|Partition`.
 
-Using the filter expressions provided at **tracing.logEvents.filter**, this determines whether or not to log the event. Note that those filters do NOT impact summary stats (those have their independent selection mechanism).
+The filter expressions provided at **tracing.logEvents.filter** are used to determine whether or not to log an event. Note that those filters do NOT impact summary stats (those have their independent selection mechanism).
 
 Wildcards (`*`, `?`) are allowed, hence the above example would be matched by any of those filter expressions:
 
@@ -207,7 +208,7 @@ The feature is enabled using a single setting inside `options/dataset` and only 
 
 A _live connection_ file is generated automatically as part of the deployment and is injected into the PBIX file compiled from sources.
 
-By default, the report name and destination workspace match those of the dataset. However, either setting can be customized in each environment:
+By default, the report name and destination workspace match those of the dataset. However, either setting can be customized for each environment:
 
 ```json
         "UAT": {
@@ -242,7 +243,7 @@ This release extends the manifest schema to allow non-string parameters. A _para
 }
 ```
 
-Numeric and Boolean parameters are now supported, as well as the `null` value.
+Numeric and Boolean parameters are supported, as well as the `null` value.
 
 Any parameter values starting with `#` are considered a literal M expression and are injected verbatim, without any quotation characters, for instance `#duration(5, 0, 0, 0)`.
 
