@@ -1,7 +1,7 @@
-{% assign tools=site.data.landing_tools.tools %}
+{% assign data=site.data.landing_tools %}
 
 <div class="row">
-    {% for tool in tools %}
+    {% for tool in data.tools %}
     <div class="col-md-4">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
@@ -13,16 +13,28 @@
             <div class="panel-body">
                 <h4>{{ tool.title }}</h4>
                 <p>{{ tool.description }}</p>
-                <p>Latest release date: <b>{{ tool.release_date }}</b></p>
-                <p>Status: <b>{{ tool.status }}</b></p>
+                <p>Latest release date: <b>{{ data.release.date }}</b></p>
+                {% capture docker_version %}{{ data.release.docker }}?tag=latest{% endcapture %}
                 {% for link in tool.links %}
                     {% if forloop.first %}
                         {% assign btn_style = "btn-primary" %}
                     {% else %}
                         {% assign btn_style = "btn-info" %}
                     {% endif %}
-                    <p><a href="{{ link.href | replace: "$release$", tool.latest_release }}" class="btn {{ btn_style }}">{{ link.title | replace: "$release$", tool.latest_release }}</a></p>
+                    <p><a href="{{ link.href | replace: "$release$", data.release.latest | replace: "$DOCKER$", docker_version }}" class="btn {{ btn_style }}">{{ link.title | replace: "$release$", data.release.latest | replace: "$TAG$", "latest" }}</a></p>
                 {% endfor %}
+                {% if data.release.pre_release %}
+                    {% assign pre=data.release.pre_release %}
+                    {% capture docker_version %}{{ pre.docker }}?tag={{ pre.tag }}{% endcapture %}
+                    <p>Latest pre-release date: <b>{{ pre.date }}</b></p>
+                    {% for link in tool.links %}
+                        {% if forloop.first %}
+                            {% continue %}
+                        {% else %}
+                            <p><a href="{{ link.href | replace: "$release$", pre.version | replace: "$DOCKER$", docker_version }}" class="btn btn-warning text-wrap" style="white-space:normal">{{ link.title | replace: "$release$", pre.version | replace: "Latest Release:", "Pre-Release:" | replace: "$TAG$", pre.tag }}</a></p>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
             </div>
         </div>
     </div>
