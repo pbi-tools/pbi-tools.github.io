@@ -3,10 +3,10 @@ release:
   date: 06-Mar-2022
   docker: '16277839'
   pre_release:
-    date: 03-Jul-2022
-    version: 1.0.0-rc.2+20220703
-    docker: '27490365'
-    tag: 1.0.0-rc.2_20220703
+    date: 26-Jul-2022
+    version: 1.0.0-rc.2+preview.3
+    docker: '29813843'
+    tag: 1.0.0-rc.2_preview.3
 tools:
 - title: pbi-tools Desktop CLI
   description: Fully-featured version. Works alongside Power BI Desktop.
