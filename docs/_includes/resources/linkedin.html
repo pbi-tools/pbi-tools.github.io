@@ -1,0 +1,20 @@
+{% assign data=site.data.resources %}
+
+<table>
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Author</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for linkedin in data.linkedin %}
+        <tr>
+            <td>{{ linkedin.date }}</td>
+            <td>{{ linkedin.author }}</td>
+            <td><a href="{{ linkedin.link }}">{{ linkedin.caption }}</a></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

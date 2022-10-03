@@ -1,0 +1,89 @@
+linkedin:
+- date: 20 Sep 2022
+  link: https://www.linkedin.com/feed/update/urn:li:activity:6977904788466237440?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6977904788466237440%29
+  author: Steve Campbell
+  caption: "There are lots of resources available to learn #PowerBI."
+- date: 5 Sep 2022
+  link: https://www.linkedin.com/feed/update/urn:li:activity:6972533770289561602?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6972533770289561602%29
+  author: Artur König
+  caption: "pbi-tools go beyond Power BI with deployment of SQL scripts!"
+- date: 28 Jun 2022
+  link: https://www.linkedin.com/feed/update/urn:li:activity:6947511975245455360?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6947511975245455360%29
+  author: Jens Vestergaard
+  caption: "Last week I hosted Mathias Thierbach for a session on Advanced Git Branching Model for Power BI and the recording is now available on the YouTube channel."
+- date: 26 May 2022
+  link: https://www.linkedin.com/posts/pbimcr_pbimcr-dataanalytics-visualisation-activity-6935644839237586945-BtIm?utm_source=share&utm_medium=member_desktop
+  author: "Power BI Manchester UG - #PBIMCR"
+  caption: "#PBIMCR May session is underway at Robert Walters Manchester office with Mathias Thierbach’s Model Development in PBI-tools Masterclass"
+- date: 7 May 2022
+  link: https://www.linkedin.com/posts/jmsanalytics_deployment-pipelines-deployment-history-activity-6928740939024797696-tngM?utm_source=share&utm_medium=member_desktop
+  author: Joel Sherman
+  caption: "Also excited about the great work Mathias Thierbach is doing with PBI-tools, to create some #devops order to the BI chaos. His website is here, do check it out!"
+- date: 4 May 2022
+  link: https://www.linkedin.com/posts/marcuswegener_powerbi-powerbiler-businessintelligence-activity-6927554180693819393-RnSp?utm_source=share&utm_medium=member_desktop
+  author: Marcus Wegener
+  caption: "Do you know this message? “This file can’t be downloaded yet. You can’t download this file right now because it’s been modified using an XMLA endpoint.” How to copy the #PowerBI data model back to a PBIX file anyway, I describe in this blog post."
+- date: 4 May 2022
+  link: https://www.linkedin.com/posts/kumar-ranjan-41b21145_powerbi-pbitools-poweraddicts-activity-6927478112477659137-OdeU?utm_source=share&utm_medium=member_desktop
+  author: Kumar Ranjan
+  caption: "Amazing. What a session , i just saw the recording of this powerful session. Prior to this I've never experienced development workflows for Power BI Reports with PBI-tools and also the availability as an open source PBI-tools is the only full source control solution for Power BI."
+- date: 1 May 2022
+  link: https://www.linkedin.com/feed/update/urn:li:activity:6926566387607838720?utm_source=share&utm_medium=member_desktop
+  author: Delhi Power BI User Group
+  caption: "We had an amazing session today at Delhi Power BI User Group by Mathias Thierbach!! If you missed here's the full recording!!"
+- date: 1 May 2022
+  link: https://www.linkedin.com/posts/abhinav-singh-22426b37_powerbi-powerbi-powerplatform-activity-6926392517793853440-ztoW?utm_source=share&utm_medium=member_desktop
+  author: Abhinav Singh
+  caption: "Do you know about this json that has full pbix metadata? We are live now with Mathias Thierbach speaking on Pbi-tools! Do tune in for learning about an amazing open source - source control solution for Power BI from the author himself!"
+- date: 30 Apr 2022
+  link: https://www.linkedin.com/posts/mdufetelle_powerbi-azure-activity-6926128668788330496-ltI9?utm_source=share&utm_medium=member_desktop
+  author: Mathieu Duftelle
+  caption: "I'm already using since several days on Azure Devops the fabulous PBi-Tools : https://pbi.tools/"
+- date: 19 Apr 2022
+  link: https://www.linkedin.com/posts/colbytimm_yay-source-control-for-power-bi-reports-activity-6922215244555567104-xyYG?utm_source=share&utm_medium=member_desktop
+  author: Colby Timm
+  caption: "Wrote a blog article on a really cool Power BI command line tool (pbi-tools) that allows for source/version control."
+- date: 13 Apr 2022
+  link: https://www.linkedin.com/posts/endjin_power-bi-weekly-issue-152-12th-april-2022-activity-6919889861193682945-gYrO?utm_source=share&utm_medium=member_desktop
+  author: endjin
+  caption: Power BI Weekly
+- date: 05 Apr 2022
+  author: Reid Havens
+  link: https://www.linkedin.com/posts/reidhavens_pbi-tools-setup-and-configuration-to-github-activity-6917154149507772416-sWHw?utm_source=share&utm_medium=member_desktop
+  caption: New Tuesday VIDEOS! In these tutorial videos Mathias Thierbach describes the setup of a simple automated deployment pipeline for Power BI reports using PBI Tools.
+- date: 28 Mar 2022
+  link: https://www.linkedin.com/posts/activity-6914302343903592448-kUnq?utm_source=share&utm_medium=member_desktop
+  author: Christoph Spieles
+  caption: "Hi #PowerBI enthusiasts, recording of last week's #Meetup by Mathias Thierbach on pbi-tools is now available on the MS #PowerPlatform DE #YouTube channel."
+- date: 21 Mar 2022
+  author: Artur König
+  link: https://www.linkedin.com/posts/datakoenigartur_dataunity-powerbi-pbitools-activity-6911623217539334144-0kng?utm_source=share&utm_medium=member_desktop
+  caption: I asked Mathias Thierbach about the Business Case of his pbi-tools - primarily, the tools solved his teams' problem and then he published the tools to others to make Power BI development more professional.
+- date: 24 Mar 2022
+  author: Artur König
+  link: https://www.linkedin.com/posts/datakoenigartur_powerbi-meetup-usergroup-activity-6912846954381066240-b-Ap?utm_source=share&utm_medium=member_desktop
+  caption: Mathias Thierbach with his pbi-tools who was at todays Berlin Power BI Usergroup Meetup to show the integration of Azure DevOps and Power BI with the help of pbi-tools.
+- date: 19 Mar 2022
+  link: https://www.linkedin.com/posts/jamesvaneaton_pbi-tools-source-control-for-pbi-des-moines-activity-6910866005187579904-ZFZu?utm_source=share&utm_medium=member_desktop
+  author: James V.
+  caption: 'pbi-tools does for report PBIX files what Tabular Editor does for tabular model BIM files: breaks it out into component .json sections and organizes them in a folder structure to make tracking changes between PBIX saves possible.'
+- date: 3 Mar 2022
+  link: https://www.linkedin.com/posts/datakoenigartur_powerbi-community-live-activity-6905094165282332673-5lRy?utm_source=share&utm_medium=member_desktop
+  author: Artur König
+  caption: The creator of the awesome PBI-Tools Mathias Thierbach and me will make another talk serien specially about news around the PBI-Tools and the related tech stuff - and we will start today at the evening at 8 PM CEST.
+- date: 7 Feb 2022
+  link: https://www.linkedin.com/posts/datakoenigartur_powerbi-tools-community-activity-6896578689803661312-GhCX?utm_source=share&utm_medium=member_desktop
+  author: Artur König
+  caption: "How to customize the URL in your Power BI Reports? With the pbi-tools by Mathias Thierbach some things are possible that are not possible in the GUI of Power BI"
+- date: 3 Feb 2022
+  link: https://www.linkedin.com/posts/datakoenigartur_powerbi-bithinkerstalk-community-activity-6894924951514951680-qQ4r?utm_source=share&utm_medium=member_desktop
+  author: Artur König
+  caption: 'Power BI Frontend "as code" - habt ihr eure Power BI Berichte schon einmal auf diese Weise betrachtet? Gestern im BI Thinkers Talk hat Marcus Wegener das mit den pbi-tools von Mathias Thierbach gemacht.'
+- date: 1 Feb 2022
+  link: https://www.linkedin.com/posts/scottstauffer_automating-the-extraction-of-bim-metadata-activity-6894405770306293760-8uEN?utm_source=share&utm_medium=member_desktop
+  author: Scott Stauffer
+  caption: 'This is SO Relevant at this time... Working on a with a team on Azure DevOps and PBI and used pbi-tools by Mathias Thierbach.'
+- date: 23 Jan 2022
+  link: https://www.linkedin.com/posts/reidhavens_deploying-reports-with-pbi-tools-with-mathias-activity-6891163962566692864-75iE?utm_source=share&utm_medium=member_desktop
+  author: Reid Havens
+  caption: "Join Mathias Thierbach and I this Friday Jan 28th 9AM (PST) as he showcases the PBI-Tools which lets you use established engineering practices such as: change control, branches, and CI/CD pipelines, and deployment for Power BI datasets!"
