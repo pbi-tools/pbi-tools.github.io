@@ -74,6 +74,16 @@ If you want to understand what source control is and what terms like git, commit
 
 ## User Group/Meetup Presentations
 
+### 17-Oct-2022 Configuring Incremental Refresh with pbi-tools (Live Stream with Reid Havens) {#ReidHavens--2022-10-17}
+
+You've heard about Power BI Incremental Refresh for datasets but you're missing powerful tooling? pbi-tools is here to help! Learn how pbi-tools supports you manage, configure, monitor and optimize incremental refresh for your largest datasets. Ask questions and see demos how to automate deploying and refreshing incremental refresh datasets. You'll hear about refresh policies, auto-managed partitions, effective date and many more technical details.
+
+Introduces new features in [`pbi-tools` 1.0.0-rc.2+preview.5 Release](https://github.com/pbi-tools/pbi-tools/releases/tag/1.0.0-rc.2%2Bpreview.5).
+
+| Announcement | [Twitter](https://twitter.com/HavensBI/status/1581821990792736768?s=20&t=Er8zweX-gdJXkpY-0L-x0w) [LinkedIn](https://www.linkedin.com/posts/reidhavens_configuring-incremental-refresh-pbi-tools-activity-6987587792767791104-37GR?utm_source=share&utm_medium=member_desktop) |
+| Recording | <https://videos.pbi.tools/2022-10-17-incr-refresh-reidh> |
+| Slides | <https://slides.pbi.tools/2022-10-17-incr-refresh-reidh> |
+
 ### 20-Jul-2022 Seattle MEUG (Dataset Lifecycle Management)
 
 **[Power BI Dataset Lifecycle Management with pbi-tools](https://www.meetup.com/seattle-modern-excel-users-group-meug/events/282861778/)**
