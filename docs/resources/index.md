@@ -405,6 +405,7 @@ Recurring video live stream during which [Artur](https://www.linkedin.com/in/dat
 
 ### Data Goblins Blog ([Kurt Buhler](https://twitter.com/kurtbuhler))
 
+- [Converting a Power BI Dataset .bim to a .pbix with pbi-tools](https://data-goblins.com/power-bi/download-pbix)
 - [The Impact Factor of Power BI External Tools](https://data-goblins.com/power-bi/external-tools-impact-factor)
 - [Fix Visuals or Replace Measures in Power BI Reports using pbi-tools](https://data-goblins.com/power-bi/replace-report-measures)
 - [Track Changes in Power BI: Part 5 - Using pbi-tools](https://data-goblins.com/power-bi/version-control-pt5)
