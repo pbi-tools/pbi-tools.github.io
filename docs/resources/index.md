@@ -7,16 +7,16 @@ hide_sidebar: true
 
 ## Upcoming Events
 
+## Conference Sessions Delivered
+
+- [Public Sessionize Profile](https://goto.pbi.tools/sessionize-profile)
+
 ### PASS Data Community Summit, Seattle (November 2022)
 
 **[Power BI Model Development Best Practices in a Team](https://passdatacommunitysummit.com/sessions/all-sessions/1726/)**
 
 Power BI projects often start very small, with a single person quickly creating impressive results using Power BI Desktop and a project that is fully contained in a single file. When those early successes are then expected to scale in an enterprise context and to be replicated by a larger team, things get more complicated. There is no obvious scale-out path, particularly with regard to model development.
 Mathias, who has been on this exact journey over the past five years, presents the practices he has developed during that time, going from a single contributor beginning to a highly effective team setup. The session covers processes, tools, roles and automation, with a focus on very practical take-aways.
-
-## Conference Sessions Delivered
-
-- [Public Sessionize Profile](https://goto.pbi.tools/sessionize-profile)
 
 ### Data Platform Virtual Summit (September 2022)
 
@@ -319,9 +319,22 @@ The repository created in the tutorial is publicly available here: <https://dev.
 
 Recurring video live stream during which [Artur](https://www.linkedin.com/in/datakoenigartur) and Mathias discuss `pbi-tools` related topic, demo new features, and record tutorials. Find all previous recordings here: <https://videos.pbi.tools/tool-talk>.
 
+### *UPCOMING:* Tool Talk 10: 13-Dec-2022
+
+### Tool Talk 9: 8-Nov-2022
+
+_Unfortunately, due to a buggy Windows 11 update, my machine's CPU was maxed out during the recording resulting in a poor video quality._
+
+- Tutorial: Getting started with [`pbi-tools` demos on GitHub](https://github.com/pbi-tools)
+  - Demo: [Deployment of thin reports](https://tool-talk.pbi.tools/20221108-demo-thin-reports) ([Repository Link](https://github.com/pbi-tools/report-devops-demo))
+  - Demo: [Deployment of thick reports](https://tool-talk.pbi.tools/20221108-demo-thick-report) ([Repository Link](https://github.com/pbi-tools/dataset-devops-demo))
+- Tutorial: [Setting cloud credentials during dataset deployments](https://tool-talk.pbi.tools/20221108-cloud-creds)
+
 ### Tool Talk 8: 4-Oct-2022
 
 - *Features Incremental Refresh support in the latest pre-release.*
+- Tutorial: [Incremental Refresh with `pbi-tools`](https://tool-talk.pbi.tools/20221004-Incr-Refresh)
+- Demo: [*Effective Date* parameter with incremental refreshes](https://tool-talk.pbi.tools/20221004-effective-date)
 
 ### Tool Talk 7: 6-Sep-2022
 
