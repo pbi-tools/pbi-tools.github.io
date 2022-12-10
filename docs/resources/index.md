@@ -321,10 +321,13 @@ Recurring video live stream during which [Artur](https://www.linkedin.com/in/dat
 
 ### *UPCOMING:* Tool Talk 10: 13-Dec-2022
 
+- [LinkedIn Event](https://tool-talk.pbi.tools/20221213-linkedin-event)
+
 ### Tool Talk 9: 8-Nov-2022
 
 _Unfortunately, due to a buggy Windows 11 update, my machine's CPU was maxed out during the recording resulting in a poor video quality._
 
+- [LinkedIn Event & Recording](https://tool-talk.pbi.tools/20221108-linkedin-event)
 - Tutorial: Getting started with [`pbi-tools` demos on GitHub](https://github.com/pbi-tools)
   - Demo: [Deployment of thin reports](https://tool-talk.pbi.tools/20221108-demo-thin-reports) ([Repository Link](https://github.com/pbi-tools/report-devops-demo))
   - Demo: [Deployment of thick reports](https://tool-talk.pbi.tools/20221108-demo-thick-report) ([Repository Link](https://github.com/pbi-tools/dataset-devops-demo))
@@ -332,6 +335,7 @@ _Unfortunately, due to a buggy Windows 11 update, my machine's CPU was maxed out
 
 ### Tool Talk 8: 4-Oct-2022
 
+- [LinkedIn Event & Recording](https://tool-talk.pbi.tools/20221004-linkedin-event)
 - *Features Incremental Refresh support in the latest pre-release.*
 - Tutorial: [Incremental Refresh with `pbi-tools`](https://tool-talk.pbi.tools/20221004-Incr-Refresh)
 - Demo: [*Effective Date* parameter with incremental refreshes](https://tool-talk.pbi.tools/20221004-effective-date)
