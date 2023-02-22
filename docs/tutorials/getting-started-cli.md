@@ -83,7 +83,7 @@ In your shell, navigate to `C:\pbi-tools-test`:
 
 Then, use `pbi-tools extract`, specifying the .pbix filename:
 
-    pbi-tools extract '.\Adventure Works DW 2020.pbix'
+    pbi-tools extract ".\Adventure Works DW 2020.pbix"
 
 The tool will run for a few seconds and produce output similar to this:
 
