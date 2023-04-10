@@ -21,6 +21,9 @@ entries:
     - title: Release Notes
       url: /cli/release-notes.html
 
+    - title: Supported/Experimental Features
+      url: /cli/supported-features.html
+
     - title: Feature Matrix
       url: /cli/feature-matrix.html
 
