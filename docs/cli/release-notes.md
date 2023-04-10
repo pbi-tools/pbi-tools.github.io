@@ -3,6 +3,35 @@ title: pbi-tools Release Notes
 permalink: /cli/release-notes.html
 ---
 
+## [1.0.0-rc.2](https://github.com/pbi-tools/pbi-tools/releases/tag/1.0.0-rc.2) - 2023-01-09
+
+- **[#97](https://github.com/pbi-tools/pbi-tools/issues/97) Model Deployments**
+- [#147](https://github.com/pbi-tools/pbi-tools/issues/147) Refresh Tracing
+- [#141](https://github.com/pbi-tools/pbi-tools/issues/141) Deployment of "thick" reports
+- [#145](https://github.com/pbi-tools/pbi-tools/issues/145) Non-string deployment parameters
+- [#146](https://github.com/pbi-tools/pbi-tools/issues/146) Environment-scoped parameters
+- [#168](https://github.com/pbi-tools/pbi-tools/issues/168) SqlScripts Deployments
+- [#129](https://github.com/pbi-tools/pbi-tools/issues/129) Object-specific refresh
+- [#135](https://github.com/pbi-tools/pbi-tools/issues/135) Bind to Gateway (new datasets)
+- [#167](https://github.com/pbi-tools/pbi-tools/issues/167) Report partition status after update/refresh
+- [#169](https://github.com/pbi-tools/pbi-tools/issues/169) Report datasources
+- [#151](https://github.com/pbi-tools/pbi-tools/issues/151) Deployments of Incremental Refresh datasets
+- [#195](https://github.com/pbi-tools/pbi-tools/issues/195) Set (Cloud) credentials during dataset deployment - Basic
+- **[#26](https://github.com/pbi-tools/pbi-tools/issues/26) Bookmarks** (PbixProj v0.12 schema)
+- [#91](https://github.com/pbi-tools/pbi-tools/issues/91) Serialize/Deserialize _MobileState_
+- [#153](https://github.com/pbi-tools/pbi-tools/issues/153) Make "CreateOrOverwrite" default import mode
+- [#202](https://github.com/pbi-tools/pbi-tools/issues/202) Ship .Net 7 version of pbi-tools Core
+- [#56](https://github.com/pbi-tools/pbi-tools/issues/56) Support for long paths on Windows
+- Fixed [#109](https://github.com/pbi-tools/pbi-tools/issues/109) 'pbi-tools info' no longer fails when another instance of SSAS runs on the same machine
+- Fixed [#127](https://github.com/pbi-tools/pbi-tools/issues/127) Folder or File sources containing spaces aren't matched (Desktop edition only)
+- Fixed [#102](https://github.com/pbi-tools/pbi-tools/issues/102) x-plat conform resolution of TEMP path
+- Fixed [#111](https://github.com/pbi-tools/pbi-tools/issues/111) Deployment fails in model-only mode (due to logging)
+- Fixed [#207](https://github.com/pbi-tools/pbi-tools/issues/207) Dataset deployment fails if model has field parameters
+- Fixed [#219](https://github.com/pbi-tools/pbi-tools/issues/219) pbi-tools Core does not compress PBIX files when compiling
+- Libraries updated: TOM 19.54, Power BI API 4.11, MSAL 4.49, db-up 5.0
+- Tested with PBI Desktop 2.112 (Dec '22)
+- Converted Fake build system from runner to fsproj
+
 ## [1.0.0-rc.1](https://github.com/pbi-tools/pbi-tools/releases/tag/1.0.0-rc.1) - 2022-03-06 "SQLBits Edition"
 
 This is ***Release Candidate 1*** for the 1.0 version. `pbi-tools` has now moved out of the *Beta* stage.
