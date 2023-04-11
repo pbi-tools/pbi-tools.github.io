@@ -3,6 +3,43 @@ title: pbi-tools Release Notes
 permalink: /cli/release-notes.html
 ---
 
+## [1.0.0-rc.3](https://github.com/pbi-tools/pbi-tools/releases/tag/1.0.0-rc.3) - 2023-04-11 "TMDL Preview-1"
+
+### [#262](https://github.com/pbi-tools/pbi-tools/issues/262) TMDL Serialization Support
+
+This release adds support for the [newly announced](https://powerbi.microsoft.com/blog/announcing-public-preview-of-the-tabular-model-definition-language-tmdl/) Tabular Model Definition Language (TMDL).
+
+- New model serialization modes: `Tmdl` (default), `Legacy` (PbixProj)
+- New (optional) environment variable: `PBITOOLS_DefaultModelSerialization`
+
+### New CLI action: extract-pbidesktop
+
+- Extracts binaries from a PBIDesktopSetup.exe\|.msi installer bundle (silent/x-copy install). (Implemented using an embedded tool: wix-extract.exe)
+- Arguments:
+  - `<installerPath>` - The path to an existing PBIDesktopSetup.exe\|PBIDesktopSetup.msi file.
+  - `<targetFolder>` - The destination folder. '-overwrite' must be specified if folder is not empty.
+  - `<overwrite>` - Overwrite any contents in the destination folder. Default: false
+
+### [#195](https://github.com/pbi-tools/pbi-tools/issues/195) Deployments - Setting dataset credentials
+
+- Added support for Anonymous and OAuth2 (cloud) credentials
+- Case-insensitive matching of data sources
+- Manifest Schema Changes
+  - manifest.credentials[].updateMode: { NotSpecified, Always, Never, BeforeRefresh }
+  - manifest.credentials[].type: { Basic, Anonymous, OAuth2 }
+  - manifest.credentials[].authority
+  - manifest.credentials[].validateAuthority
+  - manifest.credentials[].tenantId
+  - manifest.credentials[].clientId
+  - manifest.credentials[].clientSecret
+  - manifest.credentials[].scopes
+  - manifest.credentials[].useDeploymentToken
+
+### Other Changes
+
+- Change to 'launch-pbi' CLI action: `<pbixPath>` argument is now optional. If not specified, a new PBIDesktop instance is started without opening an existing file.
+- New build target: "BuildTools" - Builds all csproj inside ./tools and bundles each tool output as a .zip archive in ./.build/out/*.zip
+
 ## [1.0.0-rc.2](https://github.com/pbi-tools/pbi-tools/releases/tag/1.0.0-rc.2) - 2023-01-09
 
 - **[#97](https://github.com/pbi-tools/pbi-tools/issues/97) Model Deployments**
