@@ -1,8 +1,8 @@
 release:
-  latest: '1.0.0-rc.4'
-  date: 09-May-2023
-  docker: '91774862'
-  pre_release:
+  latest: '1.0.0-rc.8'
+  date: 09-Jan-2024
+  docker: '165256315'
+  _pre_release: # remove leading '_' to activate
     date: 09-Jun-2023
     version: 1.0.0-rc.5+preview.1
     docker: '100299248'
