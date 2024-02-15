@@ -17,6 +17,7 @@
 ## Install Jekyll
 
 * Install Ruby (with Devkit) from <https://rubyinstaller.org/downloads/>
+  * Install ruby 3.1.x! (see [jekyll/jekyll#9233](https://github.com/jekyll/jekyll/issues/9233))
 * On final installer screen, select "ridk install"; Choose option 3 (MSYS2 and MINGW)
 * In new command prompt (NB: not running as admin), run `gem install jekyll bundler`
 * Verify installation using `jekyll -v`

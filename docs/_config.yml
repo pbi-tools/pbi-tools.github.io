@@ -9,7 +9,7 @@ topnav_title: pbi-tools
 site_title: pbi-tools
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Mathias Thierbach
+company_name: pbi-tools Ltd, London
 # this appears in the footer
 
 # github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -18,7 +18,7 @@ company_name: Mathias Thierbach
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 # if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-google_analytics: UA-217307120-1
+google_analytics: G-074MR73HWE
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
 host: 127.0.0.1
@@ -97,6 +97,13 @@ defaults:
   -
     scope:
       path: "tutorials"
+      type: "pages"
+    values:
+      sidebar: cli
+
+  -
+    scope:
+      path: "tmdl"
       type: "pages"
     values:
       sidebar: cli

@@ -2,8 +2,7 @@
 
 entries:
 - title: Sidebar
-  product: pbi-tools
-  version: 1.0.0-rc.8
+  product: pbi-tools CLI
   folders:
 
   - title: Overview
@@ -27,6 +26,9 @@ entries:
     - title: Feature Matrix
       url: /cli/feature-matrix.html
 
+    - title: TMDL
+      url: /tmdl/
+    
   - title: Tutorials
     output: web
     folderitems:
