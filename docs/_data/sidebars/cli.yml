@@ -26,6 +26,9 @@ entries:
     - title: Feature Matrix
       url: /cli/feature-matrix.html
 
+    - title: TMDL
+      url: /tmdl/
+    
   - title: Tutorials
     output: web
     folderitems:
