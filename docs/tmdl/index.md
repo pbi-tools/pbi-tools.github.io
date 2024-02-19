@@ -26,18 +26,18 @@ Specifially, the [extract](https://pbi.tools/cli/usage.html#extract), [convert](
 
 Both, [extract](https://pbi.tools/cli/usage.html#extract) and [convert](https://pbi.tools/cli/usage.html#convert), support the `-modelSerialization` command-line argument to determine the serialization format for the model part of a project. (See the table below for a description of all possible options.)
 
-Each extract/serialization process will determine the effective model format in the following order (the first applicable option is applied):
+Each extract/serialization process will determine the effective model format from the first applicable option below (in the order given):
 
 1. CLI `-modelSerialization` argument
-2. The `settings.model.serializationMode` property in `.pbixproj.json`.
+2. The `settings.model.serializationMode` property in the project's `.pbixproj.json`.
 3. The `PBITOOLS_DefaultModelSerialization` environment variable.
-4. The `ModelSerialization.Default` settings, which (currently) maps to `Tmdl`.
+4. The `ModelSerialization.Default` setting, which (currently) maps to `Tmdl`.
 
-Any operations consuming project files, [compile](https://pbi.tools/cli/usage.html#compile), and [deploy](https://pbi.tools/cli/usage.html#deploy) specifically, are able to read model sources in any supported format (TMDL, PbixProj = Legacy, `model.bim`), without any further hints required.
+Any operations *consuming* project files, [compile](https://pbi.tools/cli/usage.html#compile), and [deploy](https://pbi.tools/cli/usage.html#deploy) specifically, are able to read model sources in any supported format (TMDL, PbixProj = Legacy, `model.bim`), without any further hints required.
 
 {% include note.html content="Tabular Editor's proprietary &quot;Save to Folder&quot; format is _not_ supported. For interoperability with Tabular Editor use either `model.bim` or the TMDL format." %}
 
-TMDL is still in public preview. So far, ten preview releases were published. Follow [this GitHub repository](https://tmdl.pbi.tools/history) to keep track of the latest release and any noteable changes. Whilst some breaking changes occurred between earlier previews, the TMDL format can now be considered fairly stable. For maximum interoperability between Power BI and external tools it is strongly recommeneded to always upgrade to the latest tool updates. The repository mentioned above references matching external tool versions.
+TMDL is still in public preview. So far, ten preview releases were published. Follow [this GitHub repository](https://tmdl.pbi.tools/history) to keep track of the latest release and any noteable changes. Whilst some breaking changes occurred between earlier previews, the TMDL format can now be considered fairly stable. For maximum interoperability between Power BI and external tools it is strongly recommended to always upgrade to the latest tool updates. The repository mentioned above references matching external tool versions.
 
 The `pbi-tools` [sample repository](https://github.com/pbi-tools/adventureworksdw2020-pbix) has been upgraded to the TMDL format (see the [pbix/Model](https://github.com/pbi-tools/adventureworksdw2020-pbix/tree/main/pbix/Model) folder).
 
@@ -45,12 +45,14 @@ The `pbi-tools` [sample repository](https://github.com/pbi-tools/adventureworksd
 
 | Settings | Description |
 | --- | --- |
-| `Default` | The default serialization format, effective if no option is specified. The default is (currently) TMDL. Note that the meaning of "Default" could potentially (although unlikely) change in the future. Explicitly specifiy "Tmdl" if you always want TMDL output. |
-| `Raw` | Serializes the tabular model into a single JSON file ("model.bim") containing the full TMSL payload from the PBIX model. No transformations are applied. |
-| `Legacy` | Serializes the tabular model into the default PbixProj folder structure and performs various transformations to optimize file contents for source control. |
+| `Default` | The default serialization format, effective if no option is specified. The default is (currently) TMDL. Note that the meaning of "Default" could potentially (although unlikely) change in the future. Explicitly specify "Tmdl" if you always want TMDL output. |
 | `Tmdl` | Serializes the tabular model into TMDL format. Annotation settings (`settings.model.annotations`) are applied and the `settings.model.format` options are honored (see [1.0.0-rc.8 Release](https://github.com/pbi-tools/pbi-tools/releases/tag/1.0.0-rc.8)). |
+| `Raw` | Serializes the tabular model into a single JSON file ("model.bim") containing the full TMSL payload from the PBIX model. No transformations are applied. |
+| `Legacy` | Serializes the tabular model into the proprietary PbixProj folder structure and performs various transformations to optimize file contents for source control. |
 
 ### Extract PBIX file with model.bim output (instead of default TMDL)
+
+_Use this for max interoperability._
 
     pbi-tools {filepath.pbix} -modelSerialization Raw
 
