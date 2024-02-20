@@ -67,6 +67,7 @@ _Use this for max interoperability._
 ## Resources
 
 - [Power BI Blog: Announcing the Public Preview of TMDL](https://tmdl.pbi.tools/preview-announcement)
+- [Power BI Blog: TMDL in DevMode (Preview)](https://pbi.onl/devmode-tmdl-preview)
 - [GitHub: TMDL History by Example](https://tmdl.pbi.tools/history)
 - [TMDL Extension for Visual Studio Code](https://pbi.onl/vscode-tmdl)
 - [Microsoft: Official TMDL Docs](https://pbi.onl/tmdl-docs)
