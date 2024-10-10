@@ -44,8 +44,8 @@ Running `pbi-tools[.core] {action} -?` prints usage details for that specific ac
 
 ### Prerequisites - Core Version
 
-* Any 64-Bit OS [supported by .Net 6](https://github.com/dotnet/core/blob/main/release-notes/6.0/supported-os.md)
-* [.Net 6 Runtime](https://dotnet.microsoft.com/download/dotnet/6.0/runtime) pre-installed
+* Any 64-Bit OS [supported by .Net 8](https://github.com/dotnet/core/blob/main/release-notes/8.0/supported-os.md)
+* [.Net 8 Runtime](https://dotnet.microsoft.com/download/dotnet/8.0/runtime) pre-installed
 
 ### Command-line Syntax
 
