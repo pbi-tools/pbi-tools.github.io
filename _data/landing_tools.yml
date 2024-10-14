@@ -1,0 +1,44 @@
+release:
+  latest: '1.1.0'
+  date: 9-Oct-2024
+  docker: '286804590'
+  _pre_release: # remove leading '_' to activate
+    date: 09-Jun-2023
+    version: 1.0.0-rc.5+preview.1
+    docker: '100299248'
+    tag: 1.0.0-rc.5_preview.1
+tools:
+- title: pbi-tools Desktop CLI
+  description: Fully-featured version. Works alongside Power BI Desktop.
+  icon: desktop
+  links:
+  - title: Docs / Getting Started
+    href: '/cli'
+  - title: 'Latest Release: $release$'
+    href: 'https://github.com/pbi-tools/pbi-tools/releases/tag/$release$'
+  - title: 'Download: Windows ZIP'
+    href: 'https://github.com/pbi-tools/pbi-tools/releases/download/$release$/pbi-tools.$release$.zip'
+- title: pbi-tools Core CLI
+  description: Lightweight, cross-platform version. Targets automation scenarios.
+  icon: code
+  links:
+  - title: Docs / Getting Started
+    href: '/cli'
+  - title: 'Latest Release: $release$'
+    href: 'https://github.com/pbi-tools/pbi-tools/releases/tag/$release$'
+  - title: 'Download: Windows x64 ZIP'
+    href: 'https://github.com/pbi-tools/pbi-tools/releases/download/$release$/pbi-tools.core.$release$_win-x64.zip'
+  - title: 'Download: Linux x64 ZIP'
+    href: 'https://github.com/pbi-tools/pbi-tools/releases/download/$release$/pbi-tools.core.$release$_linux-x64.zip'
+  - title: 'Download: Alpine x64 ZIP'
+    href: 'https://github.com/pbi-tools/pbi-tools/releases/download/$release$/pbi-tools.core.$release$_alpine-x64.zip'
+- title: pbi-tools Core Docker Image
+  description: Docker image for easy integration of pbi-tools in CI/CD pipelines, for instance GitHub Actions or Azure DevOps.
+  icon: ship
+  links:
+  - title: Docs / Getting Started
+    href: '/cli'
+  - title: 'Latest Release: $release$'
+    href: 'https://github.com/pbi-tools/pbi-tools/pkgs/container/pbi-tools-core/$DOCKER$'
+  - title: 'docker pull ghcr.io/pbi-tools/pbi-tools-core:$TAG$'
+    href: '#'
